@@ -12,11 +12,11 @@ public class HomePanel extends javax.swing.JPanel {
     private JTextArea jTextArea;
     private void initComponents() {
     	this.setBorder(BorderFactory.createMatteBorder(25, 25, 25, 25, Color.darkGray));
-    	this.setBackground(new Color(0, 100, 0));
+    	this.setBackground(new Color(82,82,82));
     	
         jTextArea = new JTextArea();
         jTextArea.setFont(new Font("Monospaced", 0, 35)); // NOI18N
-        jTextArea.setForeground(new Color(102, 0, 102));
+        jTextArea.setForeground(new Color(82,82,82));
         jTextArea.setColumns(60);
         jTextArea.setRows(5);
         jTextArea.setText("In this project,I am making a software which will make searching in Relational Database Management system optimized. As well as we will also show better performance of Index seek method over Table scan method.");

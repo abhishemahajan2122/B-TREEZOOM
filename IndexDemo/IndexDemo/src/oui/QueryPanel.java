@@ -22,11 +22,11 @@ public class QueryPanel extends JPanel implements ActionListener {
 
 	private void initComponents() {
 		this.setBorder(BorderFactory.createMatteBorder(25, 25, 25, 25, Color.darkGray));
-		this.setBackground(new Color(0, 100, 0));
+		this.setBackground(new Color(82,82,82));
 
 		lblselQuery = new JLabel();
 		lblselQuery.setFont(new Font("Monospaced", 0, 45));
-		lblselQuery.setForeground(new Color(255, 255, 255));
+		lblselQuery.setForeground(new Color(82,82,82));
 		lblselQuery.setText("Select * from Table WHERE ");
 
 		String[] option = { "Name", "UserName", "Password" };

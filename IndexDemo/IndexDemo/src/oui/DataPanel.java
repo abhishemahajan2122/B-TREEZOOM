@@ -19,11 +19,11 @@ public class DataPanel extends JPanel implements ActionListener {
 
 	private void initComponents() {
 		this.setBorder(BorderFactory.createMatteBorder(25, 25, 25, 25, Color.darkGray));
-		this.setBackground(new Color(0, 100, 0));
+		this.setBackground(new Color(82,82,82));
 
 		lblRows = new JLabel();
 		lblRows.setFont(new Font("Monospaced", 0, 50)); // NOI18N
-		lblRows.setForeground(new Color(255, 255, 255));
+		lblRows.setForeground(new Color(82,82,82));
 		lblRows.setText("Rows:");
 
 		txtRows = new JTextField("");
